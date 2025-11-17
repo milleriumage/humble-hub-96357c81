@@ -5,6 +5,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+	  
+
+    "build:dev": "vite build --mode development",
+
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc --build",
     "build:esm": "npm run -ws build:esm",
